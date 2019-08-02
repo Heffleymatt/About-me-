@@ -1,0 +1,52 @@
+img {
+    width: 450px;
+    height: auto;
+    margin: 5px;
+    
+}
+header {
+    text-align: center;
+    background-color: Lightblue;
+}
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: black;
+    font-size: 40px;
+}
+div {
+    font-size: 30px;
+    
+}
+.first, .third {
+    text-align: left;
+    max-width: 900px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    align-content: left;
+    float: left;
+    clear: both;
+}
+.second, .fourth {
+    max-width: 900px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    align-content: right;
+    float: right;
+    clear: both;
+}
+.contact {
+    clear: both;
+}
+h3 {
+    text-decoration: underline;
+    padding: 10px;
+    margin: 5px;
+}
+.button {
+    height: 50px;
+    width: 100px;
+}

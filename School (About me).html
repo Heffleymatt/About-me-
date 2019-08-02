@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <img src="https://imgur.com/N806lVo.png">
+    </header>
+<div>
+    <div class="first">
+        <h2>The basics!</h2>
+        <p>My name is Matt Heffley. I'm 26 years old. I was born on December 18, 1992 in a little town called Port Charlotte in southern Florida where i lived my entire life until a few years ago when I moved to North Carolina where I currently live in a little town called Southport.</p>
+        <img src="https://imgur.com/WN4CzpL.png">
+    </div>
+    <div class="second">
+        <h2>Hobbies & Intrest</h2>
+        <p>In my freetime I like to play with my dog. She is a 5 year old black lab named Mia who I have had since she was 6 weeks old. If im not playing with my dog im usually sitting at my computer playing video games or trying to learn a little more about coding. Sometimes I'll go to the park with a few friends to play some basketball or down to the pier to go fishing but not as often as I would like.</p>
+        <img src="https://imgur.com/9WckFI6.png">
+    </div>
+    <div class="third">
+        <h2>Past work experiences</h2>
+        <p>My very first job was at Long John Silvers for a little over a year until. I then moved to a fast food place called Charlies Grilled Subs where I worked for 4 years and moved into a supervisor position. I then got a job at a glass plant lifting glass all day and sloting them into carts where I also moved into a supervisor position. I worked there for 4 years until I moved to North Carolina and got a job at a woodmill where I mostly just ran wood through a saw.</p>
+        <img src="https://imgur.com/QxqHz6S.png">
+    </div>    
+    <div class="fourth">
+        <h2>How and why I got into coding</h2>
+        <p>A friend of mine who is a front end developer for a living is the one who introduced me into coding and I immediately loved it. I really enjoy the challenge of coding and the problem solving it takes to figure out even the most minor of things. It make you consistantly learn on a daily basis. I've saved up about 7 to 9 months worth of rent in order to persue this as a full time career. I'm not giving up until I've achieved that goal!</p>
+        <img src="https://imgur.com/L62gyFT.png">
+    </div>
+ </div>   
+ <div class="contact">
+     <h3>Contact Information</h3>
+     <address>
+        You can email me anytime at <a href="mailto:Heffleymatt1992@gmail.com">Email</a><br>
+        Or for a direct line call me at <a href="Tel:+19102691016">(910)269-1016</a>
+     </address><br />
+     
+        <button class="button" type="button" onClick="onClick()">Like</button>
+        <p>Likes: <a id="clicks">0</a></p>
+ </div> 
+    </body>
+    <script type="text/javascript">
+            var clicks = 0;
+            function onClick() {
+            if (clicks === 0) {
+             clicks += 1;
+            document.getElementById("clicks").innerHTML = clicks;
+            }
+            }
+    </script>
+</html>
